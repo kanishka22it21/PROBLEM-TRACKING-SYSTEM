@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form Data in Sheets</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <form method="post" action="/submit" id="rectification-form" name="rectification-form">
+        <h1><u><dfn>Rectification Platform</dfn></u></h1><br><br><br>
+        
+        <label><dfn>Username:</dfn></label>
+        <input type="text" name="Username" required>
+        
+        <label><dfn>Location:</dfn></label>
+        <select name="Location" required>
+            <option value="KGKITE">KGKITE</option>
+            <option value="KGCAS">KGCAS</option>
+            <option value="KG Nursing">KG Nursing</option>
+            <option value="KITE Boys Hostal">KITE Boys Hostal</option>
+            <option value="KITE Girls Hostal">KITE Girls Hostal</option>
+        </select>
+        
+        <label><dfn>Room No:</dfn></label>
+        <input type="text" name="Room No" required>
+        
+        <label><dfn>Floor:</dfn></label>
+        <select name="Floor" required>
+            <option value="1st Floor">1st Floor</option>
+            <option value="2nd Floor">2nd Floor</option>
+            <option value="3rd Floor">3rd Floor</option>
+            <option value="4th Floor">4th Floor</option>
+            <option value="5th Floor">5th Floor</option>
+        </select>
+        
+        <label><dfn>Field Domain:</dfn></label>
+        <select name="Field Domain" required>
+            <option value="Technicians">Technicians</option>
+            <option value="Electricians">Electricians</option>
+            <option value="Plumbers">Plumbers</option>
+            <option value="Medical assistants">Medical assistants</option>
+        </select>
+        
+        <label><dfn>Defect Appliances:</dfn></label>
+        <input type="text" name="Defect" required>
+        
+        <button type="submit">SUBMIT</button>
+    </form>
+</body>
+</html>
