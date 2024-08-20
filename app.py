@@ -17,10 +17,10 @@ def submit():
         'Defect Appliances': request.form.get('Defect')
     }
 
-    # Print form data to the console for debugging
+   
     print(form_data, flush=True)
 
-    # Render form data in HTML response
+   
     return render_template_string('''
     <!DOCTYPE html>
     <html>
