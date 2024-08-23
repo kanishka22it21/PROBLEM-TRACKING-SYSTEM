@@ -47,9 +47,7 @@ Ensure you have Python installed on your machine. This project uses Flask, which
 - Click the "SUBMIT" button.
 - The details will be displayed on a new page.
 
-### File Descriptions
+### License
 
-- **`app.py`**: Contains the Flask application code. It handles routing and form submission.
-- **`index.html`**: Contains the HTML form for user input.
-- **`styles.css`**: Contains the CSS styles for the form.
 
+This project is licensed under the MIT License - see the [MIT License](https://github.com/kanishka22it21/PROBLEM-TRACKING-SYSTEM/blob/main/LICENSE) file for details.
