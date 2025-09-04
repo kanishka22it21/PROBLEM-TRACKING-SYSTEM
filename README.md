@@ -41,6 +41,33 @@ Ensure you have Python installed on your machine. This project uses Flask, which
 
 2. **Open a web browser and navigate to** `http://127.0.0.1:5000/` **to access the form.**
 
+### Running with docker
+
+1. **Build the Docker image:**
+    docker build -t issue-tracker .
+
+2.**Run the container**
+    docker run -d -p 5000:5000 --name issue-tracker-container issue-tracker
+
+3.**Access the application**
+Open http://localhost:5000 in your browser.
+
+###Kubernetes Deployment
+
+1.**Deploy the app:**
+kubectl apply -f k8/deployment.yaml
+kubectl apply -f k8/service.yaml
+
+2.**Verify the Deployment:**
+kubectl get pods
+kubectl get svc
+
+3.**Access the application:**
+minikube service issue-tracker-service
+
+
+
+
 ### Submitting the Form
 
 - Fill out the form with the required information.
