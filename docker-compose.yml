@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  issue-tracker:
+    build: .
+    ports:
+      - "5000:5000"
+    restart: always
