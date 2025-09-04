@@ -44,7 +44,9 @@ Ensure you have Python installed on your machine. This project uses Flask, which
 ### Running with docker
 
 1. **Build the Docker image:**
+   ```bash
     docker build -t issue-tracker .
+   ```
 
 2.**Run the container**
     docker run -d -p 5000:5000 --name issue-tracker-container issue-tracker
