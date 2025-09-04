@@ -9,7 +9,9 @@ The project contains the following files:
 - **`app.py`** - The Flask application file that serves the form and handles submissions.
 - **`index.html`** - The HTML file containing the form.
 - **`styles.css`** - The CSS file for styling the form.
-
+- **`Dockerfile`** - The configuration file to containerize the Flask application.
+- **`k8/`** - Contains Kubernetes manifests (deployment.yaml, service.yaml) for orchestration.
+  
 ## Getting Started
 
 ### Prerequisites
