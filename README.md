@@ -49,7 +49,9 @@ Ensure you have Python installed on your machine. This project uses Flask, which
    ```
 
 2.**Run the container**
+    ```bash
     docker run -d -p 5000:5000 --name issue-tracker-container issue-tracker
+    ```
 
 3.**Access the application**
 Open http://localhost:5000 in your browser.
@@ -57,15 +59,21 @@ Open http://localhost:5000 in your browser.
 ###Kubernetes Deployment
 
 1.**Deploy the app:**
-kubectl apply -f k8/deployment.yaml
-kubectl apply -f k8/service.yaml
+  ```bash
+  kubectl apply -f k8/deployment.yaml
+  kubectl apply -f k8/service.yaml
+  ```
 
 2.**Verify the Deployment:**
-kubectl get pods
-kubectl get svc
+  ```bash
+  kubectl get pods
+  kubectl get svc
+  ```
 
 3.**Access the application:**
-minikube service issue-tracker-service
+  ```bash
+  minikube service issue-tracker-service
+ ``` 
 
 
 
